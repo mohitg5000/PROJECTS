@@ -1,0 +1,198 @@
+*{
+    margin:0%;
+    padding:0px
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    padding:0 !important
+}
+
+/* .nav-item
+{
+    padding:0 10px;
+} */
+/* or also be done like */
+.navbar-nav li
+{
+    padding:0 10px;
+    
+}
+.navbar-nav a{
+    color:#fff !important;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+
+}
+
+/* baricon on mobile */
+.fa fa-bars{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline:none !important;
+}
+.row{
+    margin-left:172px;
+}
+/* --------------------------------------------------------banner------------------------------- */
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color:#fff;
+    padding-top:5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight:600;
+    margin-top:100px;
+
+}
+.container-fluid{
+    margin-left:40px
+}
+.plybtn{
+    margin:20px;
+    width:40px;
+    
+
+}
+
+#banner a{
+    color:#fff;
+    text-decoration: none;
+
+}
+.bottom-img{
+     width:100%;
+}
+
+/* -----------------------------------------------------------------------------Services-------------------------------------------- */
+
+#Services{
+    padding:80px 0;
+
+}
+.service-img{
+    margin-top:20px;
+    width:100px
+}
+/* col-mid-4 class name is services */
+.services {
+    padding:20px;
+
+}
+.services h4{
+    padding:20px;
+    margin-top:25px;
+    text-transform:uppercase;
+
+}
+.title{
+    text-align:center;
+}
+
+#Services .btn-primary{
+    box-shadow: none;
+    border-radius: 25px;
+    padding:8px 25px;
+    border:none;
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+}
+
+/* -----------------------------------------ABOUT US SECTION ----------------------------*/
+#about-us{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #f8f9fa;
+}
+.about-title
+{
+    font-size:40px;
+    font-weight:600;
+    margin-top:8%;
+    
+}
+#about-us ul li{
+    margin:10px 0;
+}
+
+/* -----------------------------------------------testimonials --------------------------------*/
+#testimonials{
+    margin:80px;
+}
+
+.testimonials{
+    border-left:4px solid #7b1798;
+    margin-top:70px;
+    margin-bottom:50px;
+}
+.imgtest{
+    height:60px;
+    width:60px;
+    border-radius: 25px;margin:0px 10px;
+}
+.user-details{
+    display:inline-block;
+}
+/* for row containing images top margin */
+#testimonials .about{
+    margin-top:70px;
+}
+/* -------------------------------------social media --------------------------------*/
+
+#social-media{
+    padding:100px 0;
+    background: #f8f9fa;
+}
+#social-media p{
+    font-size:36px;
+    font-weight:600;
+}
+.social-icons img{
+    width:60px;
+}
+.social-icons a:hover img{
+    transform:translateY(-10px);
+}
+/* -----------------------------------------------footer section---------------------------- */
+#footer-section{
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    color:#fff;
+   
+}
+.footer-img{
+    width:100%;
+}
+
+.footer-box{
+    padding:20px;
+
+}
+.footer-box-img{
+    width:100px;
+    margin-bottom:20px;
+}
+.footer-box .fa{
+    margin-right:8px;
+    font-size:25px;
+    height:40px;
+    width:40px;
+    text-align:center;
+    border-radius:2px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+
+}
+.copyright{
+    margin-bottom:4px;
+    padding:4px;
+    text-align:center
+}
